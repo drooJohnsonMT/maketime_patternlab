@@ -60,7 +60,7 @@ gulp.task('cp:js', function(){
 });
 gulp.task('cp:img', function(){
   return gulp.src(
-    [ '**/*.gif', '**/*.png', '**/*.jpg', '**/*.jpeg'  ],
+    [ '**/*.gif', '**/*.png', '**/*.jpg', '**/*.jpeg', '**/*.svg'  ],
     {cwd:'./source/images'} )
     .pipe(gulp.dest('./public/images'))
 });
