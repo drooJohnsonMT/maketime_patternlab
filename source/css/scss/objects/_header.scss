@@ -9,9 +9,11 @@
 	float: left;
 	max-width: 8rem;
 	margin: 0.4rem;
+	padding: 20px;
+		background-color:black;
 
 	@media all and (min-width: $bp-med) {
-		max-width: 9rem;
+		max-width: 20rem;
 	}
 }
 
